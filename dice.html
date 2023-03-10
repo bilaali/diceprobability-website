@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dice Roll </title>
+	<link rel="stylesheet" href="dice.css">
+	<link rel="stylesheet" href="dice.sql">
+	<script src="dice.js"></script>
+</head>
+<body>
+	<h1>Two Dice Roll Count Calculator</h1>
+	
+		<label for="dice1">Dice 1:</label>
+		<input type="number" id="dice1" name="dice1" min="1" max="6" required>
+		<label for="dice2">Dice 2:</label>
+		<input type="number" id="dice2" name="dice2" min="1" max="6" required>
+		<button onclick="rollDice()">
+            Submit
+        </button> 
+
+	<br>
+	<table>
+		<tr>
+			<th>Outcome</th>
+			<th>Dice 1 Count</th>
+			<th>Dice 2 Count</th>
+			
+		</tr>
+		<tr>
+			<td>1</td>
+			<td id="d1out1">0</td>
+			<td id="d2out1">0</td>
+		
+		</tr>
+		<tr>
+			<td>2</td>
+			<td id="d1out2">0</td>
+			<td id="d2out2">0</td>
+		
+		</tr>
+		<tr>
+			<td>3</td>
+			<td id="d1out3">0</td>
+			<td id="d2out3">0</td>
+			
+		</tr>
+		<tr>
+			<td>4</td>
+			<td id="d1out4">0</td>
+			<td id="d2out4">0</td>
+		
+		</tr>
+		<tr>
+			<td>5</td>
+			<td id="d1out5">0</td>
+			<td id="d2out5">0</td>
+		
+		</tr>
+		<tr>
+			<td>6</td>
+			<td id="d1out6">0</td>
+			<td id="d2out6">0</td>
+		
+		</tr>
+	</table>
+
+	<table>
+		<tr>
+			<th>Dice 1 + Dice 2</th>
+			<th> Count</th>
+		
+			
+		</tr>
+	
+		
+		<tr>
+			<td>2</td>
+			<td id="sum2">0</td>
+			
+			
+		</tr>
+		<tr>
+			<td>3</td>
+			<td id="sum3">0</td>
+			
+		
+		</tr>
+		<tr>
+			<td>4</td>
+			<td id="sum4">0</td>
+			
+		
+		</tr>
+		<tr>
+			<td>5</td>
+			<td id="sum5">0</td>
+			
+		
+		</tr>
+	
+	
+		<tr>
+			<td>6</td>
+			<td id="sum6">0</td>
+			
+		
+		</tr>
+		<tr>
+			<td>7</td>
+			<td id="sum7">0</td>
+		
+		
+		</tr>
+		<tr>
+			<td>8</td>
+			<td id="sum8">0</td>
+			
+			
+		</tr>
+		<tr>
+			<td>9</td>
+			<td id="sum9">0</td>
+			
+		
+		</tr>
+		<tr>
+			<td>10</td>
+			<td id="sum10">0</td>
+			
+		
+		</tr>
+		<tr>
+			<td>11</td>
+			<td id="sum11">0</td>
+			
+		
+		</tr>
+	
+		<tr>
+			<td>12</td>
+			<td id="sum12">0</td>
+		
+		
+		</tr>
+	
+		
+	
+	</table>
+
+
+
+</body>
+</html>
